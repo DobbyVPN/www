@@ -289,6 +289,32 @@ a {
   margin: 0 auto;
 }
 
+.legal {
+  min-height: 100svh;
+  max-width: 48rem;
+  margin: 0 auto;
+  padding: clamp(7rem, 14vh, 9rem) clamp(1.25rem, 5vw, 3rem) 4rem;
+}
+
+.legal h1 {
+  margin: 0 0 1.25rem;
+  font-family: var(--font-display);
+  font-size: clamp(2.4rem, 7vw, 4.5rem);
+  line-height: 0.98;
+  letter-spacing: -0.05em;
+}
+
+.legal p {
+  max-width: 42rem;
+  font-size: clamp(1rem, 2.4vw, 1.15rem);
+}
+
+.legal .fine {
+  margin-top: 2rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
 .protocols h2,
 .get h2 {
   margin: 0 0 0.85rem;
