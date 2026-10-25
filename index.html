@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>doBBYVPN — do Better By VPN</title>
-  <meta name="description" content="Open-source multi-protocol VPN client. Outline, Cloak, Xray, and TrustTunnel — bring your own config, keep your traffic yours." />
+  <meta name="description" content="Source-available VPN client for Outline, Xray and TrustTunnel. Native apps for iPhone, Android phones, macOS and Windows; Linux CLI. Bring your own configuration." />
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png" />
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -36,8 +36,8 @@
           <p class="brand-hero">doBBYVPN</p>
           <h1>do Better By VPN</h1>
           <p class="lede">
-            An open-source client for the protocols you already run —
-            not another subscription in a black box.
+            A source-available client for Outline, Xray and TrustTunnel.
+            Bring your own configuration and connect to servers you choose.
           </p>
           <div class="cta-stack" aria-label="Downloads">
             <div class="cta-row" aria-label="Mobile">
@@ -72,37 +72,43 @@
     <section class="protocols" id="protocols" aria-labelledby="protocols-title">
       <h2 id="protocols-title">One client. Several ways through.</h2>
       <p class="section-lede">
-        Point Dobby at your own Outline, Cloak, Xray, or TrustTunnel config.
-        It probes, ranks, and fails over — you stay in control of the keys.
+        Load your Outline, Xray or TrustTunnel profiles with an HTTPS subscription URL.
+        Connect to a profile yourself, or let Auto connect try them in order.
       </p>
       <ul class="protocol-list">
-        <li><span>Outline</span> Shadowsocks, clean or disguised</li>
-        <li><span>Cloak</span> Traffic that looks like ordinary HTTPS</li>
-        <li><span>Xray</span> VLESS Reality and friends</li>
-        <li><span>TrustTunnel</span> Modern transport with anti-DPI options</li>
+        <li><span>Outline</span> Shadowsocks, including WebSocket and SS-GOST transports</li>
+        <li><span>Xray</span> VLESS with Reality and other Xray configurations</li>
+        <li><span>TrustTunnel</span> HTTP/2 and HTTP/3 with anti-DPI options</li>
       </ul>
     </section>
 
     <section class="get" id="get" aria-labelledby="get-title">
       <h2 id="get-title">Install where you need it</h2>
       <p class="section-lede">
-        Available on Apple platforms, Android via our F-Droid repository, and desktop builds
-        for macOS, Windows, and Linux on GitHub Releases.
+        Native apps for iPhone, Android phones, macOS and Windows.
+        Linux uses the command-line interface. Desktop packages and Android APKs
+        are available on GitHub Releases. For manual Android installation,
+        choose the signed APK.
       </p>
       <div class="store-links">
         <a class="store" href="https://apps.apple.com/us/app/dobbyvpn-do-better-by-vpn/id6741442515" rel="noopener noreferrer">
           <strong>App Store</strong>
-          <span>iPhone &amp; iPad</span>
+          <span>iPhone</span>
         </a>
         <a class="store" href="https://fdroid.link/#https://f-repo.dobbyvpn.com/fdroid/repo?fingerprint=F22F23E62C095BEED3A71C4B0D69C7F3A768E52DFE6A83AAF6A2E6AB9E2FEDC4" rel="noopener noreferrer">
           <strong>Add to F-Droid</strong>
-          <span>DobbyVPN Android repository</span>
+          <span>Our Android repository</span>
         </a>
         <a class="store" href="https://github.com/DobbyVPN/DobbyVPN/releases" rel="noopener noreferrer">
           <strong>GitHub Releases</strong>
-          <span>macOS, Windows &amp; Linux</span>
+          <span>macOS, Windows, Linux &amp; Android APKs</span>
         </a>
       </div>
+      <p class="section-lede">
+        Android 15 and later are supported; current runtime testing uses Android 15.
+        Installation is permitted on Android 8.0 and later, but Android 8–14 are
+        untested and unsupported. Mobile support is for phones.
+      </p>
       <p class="section-lede">
         With F-Droid installed, choose “Add to F-Droid”, confirm the repository,
         then install DobbyVPN. Updates will arrive through F-Droid.
@@ -113,7 +119,7 @@
 
   <footer class="site-footer">
     <p><strong>doBBYVPN</strong> — do Better By VPN</p>
-    <p class="fine">Open source. Bring your own configuration. No account required from us.</p>
+    <p class="fine">Source available under the <a href="https://github.com/DobbyVPN/DobbyVPN/blob/main/LICENSE" rel="noopener noreferrer">Business Source License 1.1</a>. Non-commercial production use is permitted; commercial production use requires a separate license. No account required from us.</p>
     <p class="fine"><a href="/privacy/">Privacy policy</a></p>
   </footer>
 
